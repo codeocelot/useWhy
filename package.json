@@ -1,0 +1,30 @@
+{
+  "name": "usewhy",
+  "version": "0.0.4",
+  "main": "dist/index.js",
+  "repository": "https://github.com/codeocelot/useWhy.git",
+  "author": "Joey Gracey (joeygracey@gmail.com)",
+  "license": "MIT",
+  "keywords": ["react", "hooks"],
+  "description": "Watch React hook dependencies and report which dependency caused the hook to fire.",
+  "homepage": "https://github.com/codeocelot/useWhy",
+  "scripts": {
+    "build": "babel index.js --out-dir dist",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.1",
+    "eslint": "5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-react-hooks": "^1.6.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
